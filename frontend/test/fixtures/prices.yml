@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  currency: MyString
+  minimum: 9.99
+  maximum: 9.99
+  location_id: 1
+
+two:
+  currency: MyString
+  minimum: 9.99
+  maximum: 9.99
+  location_id: 1

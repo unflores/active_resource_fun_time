@@ -1,0 +1,25 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Currency:</b>
+  <%= @price.currency %>
+</p>
+
+<p>
+  <b>Minimum:</b>
+  <%= @price.minimum %>
+</p>
+
+<p>
+  <b>Maximum:</b>
+  <%= @price.maximum %>
+</p>
+
+<p>
+  <b>Location:</b>
+  <%= @price.location_id %>
+</p>
+
+
+<%= link_to 'Edit', edit_price_path(@price) %> |
+<%= link_to 'Back', prices_path %>
